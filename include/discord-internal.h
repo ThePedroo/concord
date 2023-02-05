@@ -28,6 +28,7 @@ extern "C" {
 #include "io_poller.h"
 #include "queue.h"
 #include "priority_queue.h"
+#include "queriec.h"
 
 /** @brief Return 1 if string isn't considered empty */
 #define NOT_EMPTY_STR(str) ((str) && *(str))
